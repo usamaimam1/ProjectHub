@@ -11,13 +11,14 @@ class MyApp extends StatelessWidget {
       title: 'HelloWorld',
       theme: ThemeData(primaryColor: Colors.deepPurple, fontFamily: "Barlow"),
       home: Scaffold(
-          backgroundColor: Colors.white,
-          body: Center(
-            child: Image.asset(
-              'assets/logo.png',
-              height: 200.0,
-            ),
-          )),
+        backgroundColor: Colors.white,
+        body: Center(
+          child: Image.asset(
+            'assets/logo.png',
+            height: 200.0,
+          ),
+        ),
+      ),
     );
   }
 }
